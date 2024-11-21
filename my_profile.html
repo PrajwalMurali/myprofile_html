@@ -3,105 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajwal Murali - Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>PORTFOLIO RESUME - Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: rgb(0, 0, 0);
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
         }
-        header {
-            background:rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
+        .container {
+            width: 70%;
+            margin: auto;
             padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background: rgb(255, 255, 255);
+            background-color: #ffffff;
             border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #000000;
+        h1, h2, h3 {
+            margin: 0;
+            color: #2C3E50;
         }
-        footer {
+        .header {
             text-align: center;
-            padding: 10px;
-            background: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.8em;
+            margin: 0;
+            color: #34495e;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            color: #2C3E50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .contact-info, .skills, .education, .experience, .projects {
+            margin-bottom: 20px;
+        }
+        .contact-info li, .skills li, .education li, .experience li, .projects li {
+            margin-bottom: 12px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .contact-info li a, .experience li a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info li a:hover, .experience li a:hover {
+            text-decoration: underline;
+        }
+        .experience ul, .projects ul {
+            margin-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 40px;
+        }
+        .btn {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Prajwal Murali</h1>
-    <p>Entrepreneur | Tech Enthusiast | Photographer | editor | computer programmer </p> 
-</header>
+<div class="container">
 
-<section>
-    <h2>About Me</h2>
-    <p>Hi, I'm Prajwal Murali, an ambitious and driven individual currently pursuing a Bachelor's in Computer Applications (BCA). With a strong foundation in both technical and creative skills, I’ve honed my expertise in photography, Adobe Photoshop, video editing, and graphic design. My passion for technology extends into my business ventures, where I run Prajwal Garden Landscape and Maintenance, a company dedicated to sustainable landscaping solutions.
+    <!-- Header -->
+    <div class="header">
+        <h1>Prajwal Murali</h1>
+        <p>BCA Undergraduate Student | Photographer | Entrepreneur | Interior Garden Designer</p>
+    </div>
 
-        As a class representative, I’ve developed strong leadership and organizational abilities, and my experience with interior designers and indoor gardeners has enhanced my problem-solving skills in dynamic environments. My entrepreneurial mindset drives me to constantly learn and grow, embracing challenges in areas such as software testing, validation, and computer networking.
-        
-        Fluent in English, Kannada, Hindi, and some Tamil, I bring effective communication to every project I’m part of. Whether I’m capturing moments through my lens, refining products through product photography, or exploring cutting-edge technologies, I remain passionate about contributing innovative solutions.
-        
-        I’m always open to learning and collaborating with like-minded professionals. Let’s connect and create something amazing!
-        
-        </p>
-</section>
+    <!-- Contact Information -->
+    <div class="section contact-info">
+        <h2 class="section-title">Contact Information</h2>
+        <ul>
+            <li>Email: <a href="mailto:prajwalm2027@gmail.com">prajwalm2027@gmail.com</a></li>
+            <li>Phone: +91 8296129560</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/2027prajwal/">linkedin.com/in/prajwal</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/prajwal_photographs/"</li>instagram.com/prajwal_photographs</a></li>
+        </ul>
+    </div>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Photography</li>
-        <li>Adobe Photoshop</li>
-        <li>Video Editing (VN App)</li>
-        <li>Brochure Design (Canva)</li>
-        <li>Programming & Coding</li>
-        <li>Fluent in English, Kannada, Hindi, and some Tamil</li>
-    </ul>
-</section>
+    <!-- Skills -->
+    <div class="section skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Photography: Canon 700D & 1200D, Light Painting, Portraits, Multiple Exposure</li>
+            <li>Graphic Design: Adobe Photoshop, VN App (Video Editing)</li>
+            <li>Interior Gardening & Design</li>
+            <li>Entrepreneurship: *Prajwal Garden Landscape and Maintenance*</li>
+            <li>Languages: English, Kannada, Hindi, Tamil (Basic)</li>
+            <li>Organizational Skills: Event Planning, Project Management</li>
+        </ul>
+    </div>
 
-<section>
-    <h2>Portfolio</h2>
-    <p>Check out my projects and designs.</p>
-    <ul>
-        <li>canva designs</li>
-        <li>Photography Projects</li>
-        <li>Video Editing Samples</li>
-        <li>computer codings</li>
-        <li>github projects</li>
-        <li>business ideas</li>
-    </ul>
-</section>
+    <!-- Education -->
+    <div class="section education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>Jain University, Bangalore | 2024 - Present</p>
+            </li>
+        </ul>
+    </div>
 
-<section>
-    <h2>Contact</h2>
-    <p>If you'd like to connect, here are my contact details:</p>
-    <ul>
-        <li><strong>Name:</strong> PRAJWAL M</li>
-        <li><strong>Full Name:</strong> PRAJWAL MURALI</li>
-        <li><strong>Phone Number:</strong> 8296129560</li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/2027prajwal/?trk=opento_sprofile_topcard" target="_blank" style="color: purple;">Connect on LinkedIn</a></li>
-        <li><strong>University:</strong> Jain University</li>
-        <li><strong>Course:</strong> Bachelor of Computer Applications (BCA)</li><br>
+    <!-- Experience -->
+    <div class="section experience">
+        <h2 class="section-title">Professional Experience</h2>
+        <ul>
+            <li>
+                <h3>Student Forum - Samasti</h3>
+                <p>Role: Member | Jain University | 2023 - Present</p>
+                <ul>
+                    <li>Collaborated on organizing student events and activities.</li>
+                    <li>Coordinated between students and faculty for seamless project execution.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>*Prajwal Garden Landscape and Maintenance*</h3>
+                <p>Role: marketing manager | 2021 - Present</p>
+                <ul>
+                    <li>Specialized in indoor garden design and maintenance services.</li>
+                    <li>Handled client relations and operational aspects of the business.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    </ul>
-</section><br>
-<br>
+    <!-- Projects -->
+    <div class="section projects">
+        <h2 class="section-title">Key Projects</h2>
+        <ul>
+            <li>
+                <h3>Indoor Garden Project</h3>
+                <p>Designed and implemented an indoor garden as part of a college project, integrating aesthetics with functionality.</p>
+            </li>
+            <li>
+                <h3>Photography Portfolio</h3>
+                <p>Created a diverse portfolio showcasing various photography techniques, including product photography, portraits, and landscapes.</p>
+            </li>
+        </ul>
+    </div>
 
-<footer>
-    <p>Connect with me on <a href="https://www.linkedin.com/in/2027prajwal/?trk=opento_sprofile_topcard" target="_blank" style="color: purple;">LinkedIn</a></p>
-    <p>Connect with me on <a href=<p> <a href="https://github.com/PrajwalMurali" target="_blank" style="color: purple;">github</a></p> 
-</footer>
+    <!-- Footer -->
+    <div class="footer">
+        <p>Thank you for reviewing my resume. For further details, feel free to reach out to me at <a href="mailto:prajwalm2027@gmail.com">prajwalm2027@gmail.com</a>.</p>
+        <a href="mailto:prajwalm2027@gmail.com" class="btn">Contact Me</a>
+    </div>
+
+</div>
 
 </body>
 </html>
